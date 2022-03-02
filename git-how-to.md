@@ -1,2 +1,2 @@
-# HOW TO CREATE SSH-KEY #
-## SHORT INSTRUCTION ##
+# SSH_KEY #
+#### Short instruction of uploading ####
