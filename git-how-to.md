@@ -8,21 +8,21 @@ _1.1._ Open terminal and writedown this code with e-mail of your github account:
 
 _1.2._ Writedown this command to create new ssh-key:
 
-    \> Generating public/private ed25519 key pair.
+    > Generating public/private ed25519 key pair.
 
 _1.3._ Enter name of the file in which your ssh-key will be located
 
-    \> Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
+    > Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 
 _1.4._ Use your personal token for generation a key:
 
-    \> Enter passphrase (empty for no passphrase): [Press enter]
+    > Enter passphrase (empty for no passphrase): [Press enter]
 
 ### 2. Adding the key in ssh-agent
 _2.1_ Launch terminal in ssh-agent:
 
     eval "$(ssh-agent -s)"
-    \> Agent pid 59566
+    > Agent pid 59566
 
 _2.2_ Add private ssh-key to ssh-agent:
 
