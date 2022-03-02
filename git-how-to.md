@@ -32,3 +32,7 @@ _2.2_ Add private ssh-key to ssh-agent:
 _3.1._ Choose "SSH and GPG keys" in user setting on the GitHub. Click on New SSH key or Add SSH key. Copy key into the frame "Key" from file of SSH key on your computer
 
 _3.2._ After this to push the button "Add SSH key"
+
+Thanks to allertion:
+
+![This is SHREK, okey] (shrek.jpeg)
