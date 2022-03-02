@@ -6,4 +6,4 @@ Here I am practicing markdown to create nice README, maybe, but this is just my 
 
 Now I wanna to add some peace of programming code by C language:
 
-    <printf ("Hello World\n");>
+    printf ("Hello World\n");
