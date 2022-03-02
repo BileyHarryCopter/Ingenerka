@@ -35,4 +35,4 @@ _3.2._ After this to push the button "Add SSH key"
 
 Thanks to allertion:
 
-<img src = "shrek.png">
+<img src = "shrek.jpeg">
