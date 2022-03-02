@@ -35,4 +35,4 @@ _3.2._ After this to push the button "Add SSH key"
 
 Thanks to allertion:
 
-![This is SHREK, okey] (shrek.jpeg)
+![This is SHREK, okey] (/shrek.jpeg)
