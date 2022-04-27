@@ -14,7 +14,7 @@ _1.3._ Enter name of the file in which your ssh-key will be located
 
     > Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 
-_1.4._ Use your personal token for generation a key:
+_1.4._ Use your personal  token for generation a key:
 
     > Enter passphrase (empty for no passphrase): [Press enter]
 
