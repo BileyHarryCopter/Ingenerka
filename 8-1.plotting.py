@@ -4,14 +4,10 @@ import numpy as np
 
 with open("settings.txt", "r") as settings:
     tmp = [float(i) for i in settings.read().split("\n")]
-    print(tmp)
 
 data_array = np.loadtxt("data.txt", dtype=float)
 
 period = tmp[0]
-
-print (data_array.size)
-print (period)
 
 # создение массива для значений горизонтальной оси
 x = np.linspace(0, period * data_array.size, data_array.size)
@@ -28,7 +24,8 @@ ax.plot (x, data_array, marker=".", color="blue", label="U(t)")
 ax.legend(fontsize = 22)
 
 # добавление разметки
-ax.grid (axis='both', alpha=1, linestyle = "--")
+ax.grid (axis='both', which='both', alpha=1, linestyle = "--")
+ax.minorticks_on()
 
 # добавление заголовка и подписей ко всем осям
 ax.set_title("Process of charging and recharging of condensateur", fontsize = 32)
